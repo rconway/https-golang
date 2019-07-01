@@ -7,8 +7,9 @@ server {
 
         server_name rconway.co.uk goapp.rconway.co.uk;
 
-        location / {
-                proxy_pass http://goapp:8080;
+        location /goapp/ {
+                proxy_pass http://goapp:8080/;
+                proxy_redirect / /goapp/;
         }
 
         location ~ /.well-known/acme-challenge {
