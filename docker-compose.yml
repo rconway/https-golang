@@ -4,7 +4,7 @@ services:
   goapp:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: goapp/Dockerfile
     image: rconway/goapp
     container_name: goapp
     restart: unless-stopped
