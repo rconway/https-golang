@@ -1,0 +1,22 @@
+{
+  "name": "https-golang",
+  "version": "1.0.0",
+  "description": "HTTPS web service with golang",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rconway/https-golang.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rconway/https-golang/issues"
+  },
+  "homepage": "https://github.com/rconway/https-golang#readme",
+  "dependencies": {
+    "hellojs": "^1.18.1"
+  }
+}
