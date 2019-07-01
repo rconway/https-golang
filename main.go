@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("zzz STARTING...")
+	fmt.Println("STARTING...")
 
 	mux := http.NewServeMux()
 
