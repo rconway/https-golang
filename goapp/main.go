@@ -17,7 +17,7 @@ func main() {
 
 	mux.HandleFunc("/index", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Println("hit /index")
-		http.Redirect(w, r, "data", 307)
+		http.Redirect(w, r, "/data", 307)
 	})
 
 	mux.HandleFunc("/data", func(w http.ResponseWriter, r *http.Request) {
